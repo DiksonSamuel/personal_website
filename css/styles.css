@@ -36,22 +36,27 @@ html {
 
 main {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	min-height: 100vh;
 	justify-content: center;
 	text-align: center;
+	align-items: center
 }
 
-main > .intro {
+.intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
-main > .tagline {
+.tagline {
 	font-size: 1.5rem;
-	margin: 1.5rem 0;
+	//margin: 1.5rem 0;
 	font-weight: 100;
+}
+
+.textContainer {
+	margin-left: : 100px
 }
 
 .icons-social i {
