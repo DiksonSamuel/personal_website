@@ -19,19 +19,19 @@ main {
 }
 @keyframes bgcolorchange {
   0% {
-    background-color: #c0392b;
-  }
-  25% {
     background-color: #ecf0f1;
   }
+  25% {
+    background-color: #c0392b;
+  }
   50% {
-    background-color: #f1c40f;
+    background-color: #e67e22;
   }
   75% {
-    background-color: #3498db;
+    background-color: #f1c40f;
   }
   100% {
-    background-color: #e67e22;
+    background-color: #34495e;
   }
 }
 /* Chrome, Safari, Opera */
