@@ -14,24 +14,24 @@
 }
 
 main {
-  -webkit-animation: bgcolorchange 4s infinite; /* Chrome, Safari, Opera */ 
+  -webkit-animation: bgcolorchange 2s infinite; /* Chrome, Safari, Opera */ 
   animation: 4s infinite bgcolorchange;
 }
 @keyframes bgcolorchange {
   0% {
-    background-color: red;
+    background-color: #c0392b;
   }
   25% {
-    background-color: green;
+    background-color: #ecf0f1;
   }
   50% {
-    background-color: yellow;
+    background-color: #f1c40f;
   }
   75% {
-    background-color: yellow;
+    background-color: #3498db;
   }
   100% {
-    background-color: red;
+    background-color: #e67e22;
   }
 }
 /* Chrome, Safari, Opera */
